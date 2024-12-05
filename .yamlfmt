@@ -1,0 +1,10 @@
+formatter:
+  type: basic
+  include_document_start: true       # Include "---" at the start of each YAML document
+  indent: 2                          # Set indentation to 2 spaces for standard YAML formatting
+  max_line_length: 80                # Set the maximum line length to 80 characters
+  pad_line_comments: 2               # Add 2 spaces before comments for readability
+  retain_line_breaks: true           # Retain line breaks for better consistency with original formatting
+  trim_trailing_whitespace: true     # Trim any trailing whitespace for cleaner formatting
+  eof_newline: true                  # Add a newline at the end of the file
+line_ending: lf                      # Use Unix-style line endings for consistency across environments
